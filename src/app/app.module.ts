@@ -28,14 +28,17 @@ import { LoginComponentModule } from './login-component/login-component.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    
     NavBarModule,
     FooterModule,
+    HomeModule,
+    AppRoutingModule,
+
     AdminModule,
     ProdutosModule,
     ProdutosDetailsLojaModule,
     ProdutosDetailsIfoodModule,
-    HomeModule,
+
     ContatoModule,
     UsuarioModule,
     CardPizzaModule,
