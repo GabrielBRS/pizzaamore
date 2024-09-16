@@ -23,6 +23,8 @@ const routes: Routes = [
   {path:'admin', component:AdminComponent},
   {path:'usuario',component:UsuarioComponent},
   {path:'login',component:LoginComponentComponent},
+  {path: '',   redirectTo: '/', pathMatch: 'full' },
+  {path:'**', component:HomeComponent}
 ];
 
 @NgModule({
