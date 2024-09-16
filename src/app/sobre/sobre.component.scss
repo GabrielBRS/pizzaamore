@@ -1,0 +1,188 @@
+.area-sobre{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Oleo Script";
+  font-size: 25px;
+}
+
+.sub-content{
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  // align-self: center;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+}
+
+.image{
+  display: flex;
+  flex-direction: column;
+
+  img{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .area-sobre{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Oleo Script";
+    font-size: 25px;
+  }
+
+  .sub-content{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // align-self: center;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+  }
+
+  .image{
+    display: flex;
+    flex-direction: column;
+
+    img{
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+.area-sobre{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "Oleo Script";
+  font-size: 25px;
+}
+
+.sub-content{
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  // align-self: center;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+}
+
+.image{
+  display: flex;
+  flex-direction: column;
+
+  img{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+  .area-sobre{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Oleo Script";
+    font-size: 25px;
+  }
+
+  .sub-content{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // align-self: center;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+  }
+
+  .image{
+    display: flex;
+    flex-direction: column;
+
+    img{
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      height: 350px;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+    }
+  }
+
+}

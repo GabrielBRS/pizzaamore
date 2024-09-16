@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Genos:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Heebo:wght@100..900&family=Oleo+Script:wght@400;700&family=Parisienne&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Staatliches&display=swap');
+
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  //background-image: url("assets/images/pizzaamorelogo.jpg");
+}
+
+html{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #d4d4d4;
+}
+
+@media only screen and (max-width: 600px) {
+
+  html{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #d4d4d4;
+    overflow-x: hidden;
+  }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  html{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #d4d4d4;
+    overflow-x: hidden;
+  }
+
+
+}
+

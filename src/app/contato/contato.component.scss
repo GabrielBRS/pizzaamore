@@ -1,0 +1,202 @@
+.area-contato{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 0;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+
+  .sub-content{
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    min-width: 0;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 20px;
+
+    .titulo-horario{
+      flex-direction: column;
+      min-height: 0;
+      min-width: 0;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      margin-bottom: 10px;
+      font-size: 22px;
+      margin-top: 10px;
+
+    }
+
+  }
+
+}
+
+.forme-data-group{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+  margin-bottom:100px;
+
+  #input-forme-name{
+    margin-top: 5px;
+  }
+
+  .input-forme{
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    min-height: 0;
+    margin-bottom: 5px;
+
+
+    .text-label{
+      display: flex;
+      flex-direction: column;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #03254c;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .input-forme-data{
+      display: flex;
+      flex-direction: column;
+      justify-content: baseline;
+      align-items: baseline;
+      align-self: baseline;
+      align-content: baseline;
+      width: 100%;
+      min-height: 0;
+      background-color: #ffffff;
+      color: #03254c !important;
+      font-size: 20px !important;
+
+    }
+
+    #message{
+      min-height: 0px !important;
+      height: 150px !important;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #03254c !important;
+      font-size: 20px !important;
+    }
+
+    #input-forme-submit{
+      justify-content: center !important;
+    }
+
+    .input-forme-submit{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      height: 35px;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+      margin-top: 30px;
+      border-radius: 5px;
+      border: 2px solid #03254c;
+      cursor: pointer;
+      background-color: #03254c;
+      color: #03254c;
+      font-size: 18px;
+    }
+  }
+
+}
+
+::ng-deep{
+  #input-forme-submit{
+    justify-content: center !important;
+  }
+
+  #submit{
+    background-color: #ffffff99;
+    color: #03254c;
+  }
+
+  .input-forme-data{
+    border-radius: 5px;
+    border: 2px solid #03254c;
+    background-color: #ffffff99 !important;
+    color: #03254c !important;
+    &:focus{
+      border: 2px solid #ffffff !important;
+    }
+    &::placeholder{
+      color: #132d4699 !important;
+    }
+  }
+}
+
+
+.info {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 320px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background: #d65645;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px -3px #111;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.info__icon {
+  width: 20px;
+  height: 20px;
+  transform: translateY(-2px);
+  margin-right: 8px;
+}
+
+.info__icon path {
+  fill: #fff;
+}
+
+.info__title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
+
+.info__close {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.info__close path {
+  fill: #fff;
+}
+

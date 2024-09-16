@@ -1,0 +1,51 @@
+<div class="total-card">
+  <div class="area-card">
+    <div class="head">
+      <div class="title">
+        {{namePizza}}
+      </div>
+      <div class="circle-image">
+        <div *ngIf="this.expandImageBoolean===false" (click)="setImgBool()">
+          <img class="image-manipulation" [src]="pizzaPhoto"/>
+        </div>
+        <div *ngIf="this.expandImageBoolean===true" (click)="setImgBool()">
+          <img class="image-manipulation"  [src]="pizzaPhoto" style="height: 350px; width: 350px; z-index: 10; border-radius: 5px;"/>
+        </div>
+        <!-- <img class="image-manipulation" [src]="'../assets/images/pizza.png'" /> -->
+      </div>
+    </div>
+    <div class="body" *ngIf="this.expandImageBoolean===false">
+      <div class="content">
+        <div class="sub-title">
+          INGREDIENTE
+        </div>
+        <span style="margin-bottom: 5px;"></span>
+        <div class="ingredientes">
+          {{fristDescription}}
+        </div>
+        <span style="margin-bottom: 5px;"></span>
+        <div class="ingredientes">
+          {{secondDescription}}
+        </div>
+        <span style="margin-bottom: 10px;"></span>
+        <div class="ingredientes">
+          {{ingredients}}
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+     <div class="collumn-one">
+      <div class="prices">
+        {{price}}
+      </div>
+     </div>
+    </div>
+  </div>
+  <div class="collumn-comprar">
+    <div class="comprar-bottom-box">
+      <a [href]="linkComprar" target="_blank" class="socialContainer containerFour">
+        Comprar agora
+      </a>
+    </div>
+  </div>
+</div>
