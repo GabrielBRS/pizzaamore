@@ -19,6 +19,8 @@ import { ProdutosDetailsIfoodModule } from './produtos/produtos-details-ifood/pr
 import { UserModule } from './user/user.module';
 import { HomeService } from './home/home.service';
 import { SobreModule } from './sobre/sobre.module';
+import { CardPizzaIfoodModule } from './components/card-pizza-ifood/card-pizza-ifood.module';
+import { LoginComponentModule } from './login-component/login-component.module';
 
 @NgModule({
   declarations: [
@@ -42,6 +44,18 @@ import { SobreModule } from './sobre/sobre.module';
     SobreModule,
     ProdutosModule,
     ContatoModule,
+
+    AdminModule, 
+    CardPizzaModule,
+    CardPizzaIfoodModule,
+    FooterModule,
+    NavBarModule,
+    ContatoModule,
+    HomeModule,
+    LoginComponentModule,
+    SobreModule,
+    UserModule,
+    UsuarioModule,
 
     TranslateModule.forRoot({
       loader: {
